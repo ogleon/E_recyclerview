@@ -12,4 +12,13 @@
     <string name="textButtonAdd">ADD</string>
     <string name="textView03FragmentSecond">Justified</string>
     <string name="title">Missed Classes</string>
+    <string name="itemText01">Name:</string>
+    <string name="itemText02">Subject:</string>
+    <string name= "test">m7</string>
+    <string name="test2">m8</string>
+    
+    <string-array name="subjectsArray">
+        <item>M7 - Interface Development</item>
+        <item>M8 - Android Programming w/ Kotlin</item>
+    </string-array>
 </resources>

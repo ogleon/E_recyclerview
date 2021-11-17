@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/drawable/ic_add.xml" value="0.11851851851851852" />
+        <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/drawable/ripple_oval.xml" value="0.11851851851851852" />
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/content_main.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/fragment_first.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/fragment_first.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/fragment_second.xml" value="0.22" />
+        <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/layout/item_attendance.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/leonn/AndroidStudioProjects/E_recyclerview/app/src/main/res/menu/menu_main.xml" value="0.22" />
       </map>
     </option>

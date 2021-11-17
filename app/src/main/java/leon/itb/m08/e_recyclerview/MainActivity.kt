@@ -3,6 +3,7 @@ package leon.itb.m08.e_recyclerview
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import leon.itb.m08.e_recyclerview.databinding.ActivityMainBinding
+import leon.itb.m08.e_recyclerview.view.MissedAttendanceFragment
 
 class MainActivity : AppCompatActivity() {
 

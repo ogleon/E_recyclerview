@@ -13,14 +13,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.E_recyclerview.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.E_recyclerview.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.E_recyclerview.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <color name="colorAccent">#FF5722</color>
 </resources>

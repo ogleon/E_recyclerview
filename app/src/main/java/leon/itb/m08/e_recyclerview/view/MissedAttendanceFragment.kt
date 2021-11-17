@@ -1,30 +1,36 @@
-package leon.itb.m08.e_recyclerview
+package leon.itb.m08.e_recyclerview.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
+import leon.itb.m08.e_recyclerview.R
 import leon.itb.m08.e_recyclerview.databinding.FragmentSecondBinding
 
-/**
- * A simple [Fragment] subclass as the second destination in the navigation.
- */
-class MissedAttendanceFragment : Fragment() {
+class MissedAttendanceFragment : Fragment(), AdapterView.OnItemSelectedListener {
 
-    private var _binding: FragmentSecondBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentSecondBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        binding = FragmentSecondBinding.inflate(inflater, container, false)
+
+        /*set an adapter with strings array*/
+        binding.spinnerDetails.adapter = activity?.let {
+            ArrayAdapter(
+                it,
+                R.layout.support_simple_spinner_dropdown_item,
+                resources.getStringArray(R.array.subjectsArray)
+            )
+        }
+
         return binding.root
 
     }
@@ -42,8 +48,11 @@ class MissedAttendanceFragment : Fragment() {
         }
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+
     }
+
+    override fun onNothingSelected(parent: AdapterView<*>?) {
+    }
+
 }

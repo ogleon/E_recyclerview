@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.E_recyclerview"
-    tools:context=".view.ListFragment">
+    tools:context=".ui.list.FirstFragment">
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textview_first"

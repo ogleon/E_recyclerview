@@ -3,7 +3,7 @@ package leon.itb.m08.e_recyclerview
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import leon.itb.m08.e_recyclerview.databinding.ActivityMainBinding
-import leon.itb.m08.e_recyclerview.view.MissedAttendanceFragment
+import leon.itb.m08.e_recyclerview.ui.add.SecondFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.fab.setOnClickListener {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.nav_host_fragment_content_main, MissedAttendanceFragment()).commit()
+                .replace(R.id.nav_host_fragment_content_main, SecondFragment()).commit()
         }
     }
 }
